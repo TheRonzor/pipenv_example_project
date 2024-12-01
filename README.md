@@ -25,7 +25,7 @@ or
 
 `pip3 install --user pipenv`
 
-When you start working on a new project, or download someone else's code, navigate to the directory containing the project from the command line and launch a new shell within the virtual environment:
+When you start working on a new project, or download someone else's code, navigate to the directory containing the project from the command line and launch a new shell within the virtual environment (which will be created if it does not already exist):
 
 `pipenv shell`
 
@@ -37,7 +37,9 @@ If you are starting a new project:
 
 2) Once you have installed all of the required libraries within the virtual environemnt, run `pipenv lock` to be sure the dependency information is up-to-date.
 
-3) If you are familiar with, or would like to make available to other users, the `requirements.txt` file, then run `pipenv requirements > requirements.txt`
+3) If you are familiar with, or would like to make available to other users, the `requirements.txt` file, then run `pipenv requirements > requirements.txt`.
+
+4) If you need to install additional libraries after this, then simply install them using `pipenv install`, and then repeat steps 2 and 3.
 
 That's it!
 
@@ -45,4 +47,8 @@ If you are using someone else's code:
 
 1) Launch the virtual environment using `pipenv shell` as per above.
 
-2) 
+2) run `pipenv install` to install the dependencies from the `Pipfile.lock` file.
+
+3) Run their code!
+
+Make sure to refer to the documentation for any additional questions!
