@@ -1,4 +1,4 @@
-## Example Project using pipenv to Manage Virtual Environments
+## Example Project using Pipenv to Manage Virtual Environments
 
 ### Introduction
 Managing dependencies, both for yourself as well as other users of your code, can be a hassle. This can become especially troublesome if you have different projects which rely on different versions of Python or Python libraries, or if you are using someone else's code that have dependencies conflicting with what you have installed on your machine.
@@ -43,7 +43,7 @@ If you are starting a new project:
 
 That's it!
 
-If you are using someone else's code:
+If you are using someone else's code (you can start by downloading this repository):
 
 1) Launch the virtual environment using `pipenv shell` as per above.
 
