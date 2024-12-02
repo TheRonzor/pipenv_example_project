@@ -3,7 +3,7 @@
 ### Introduction
 Managing dependencies, both for yourself as well as other users of your code, can be a hassle. This can become especially troublesome if you have different projects which rely on different versions of Python or Python libraries, or if you are using someone else's code that have dependencies conflicting with what you have installed on your machine.
 
-It is generally good practice to develop your projects in isolated environments (a.k.a. "vitrual environments") which only contain the specific version(s) of Python and Python libraries required for the project.
+It is generally good practice to develop your projects in isolated environments (a.k.a. "virtual environments") which only contain the specific version(s) of Python and Python libraries required for the project.
 
 (See the wikipedia page on [Dependency Hell](https://en.wikipedia.org/wiki/Dependency_hell) for some fun reading.)
 
@@ -47,7 +47,7 @@ If you are using someone else's code (you can start by downloading this reposito
 
 1) Launch the virtual environment using `pipenv shell` as per above.
 
-2) run `pipenv install` to install the dependencies from the `Pipfile.lock` file.
+2) Run `pipenv install` to install the dependencies from the `Pipfile.lock` file.
 
 3) Run their code!
 
