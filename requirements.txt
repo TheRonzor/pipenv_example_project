@@ -1,18 +1,18 @@
 -i https://pypi.org/simple
-contourpy==1.3.1; python_version >= '3.10'
-cycler==0.12.1; python_version >= '3.8'
-fonttools==4.55.0; python_version >= '3.8'
-kiwisolver==1.4.7; python_version >= '3.8'
-matplotlib==3.9.3; python_version >= '3.9'
-numpy==2.1.3; python_version >= '3.10'
-packaging==24.2; python_version >= '3.8'
-pandas==2.2.3; python_version >= '3.9'
-pillow==11.0.0; python_version >= '3.9'
-pyparsing==3.2.0; python_version >= '3.9'
-pyqt5==5.15.11; python_version >= '3.8'
-pyqt5-qt5==5.15.15
-pyqt5-sip==12.15.0; python_version >= '3.8'
-python-dateutil==2.9.0.post0; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'
+contourpy==1.3.1 ; python_version >= '3.10'
+cycler==0.12.1 ; python_version >= '3.8'
+fonttools==4.55.0 ; python_version >= '3.8'
+kiwisolver==1.4.7 ; python_version >= '3.8'
+matplotlib==3.9.3
+numpy==2.1.3 ; python_version >= '3.10'
+packaging==24.2 ; python_version >= '3.8'
+pandas==2.2.3
+pillow==11.0.0 ; python_version >= '3.9'
+pyparsing==3.2.0 ; python_version >= '3.9'
+pyqt5==5.15.11
+pyqt5-qt5==5.15.2
+pyqt5-sip==12.15.0 ; python_version >= '3.8'
+python-dateutil==2.9.0.post0 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
 pytz==2024.2
-six==1.16.0; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'
-tzdata==2024.2; python_version >= '2'
+six==1.16.0 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
+tzdata==2024.2 ; python_version >= '2'
