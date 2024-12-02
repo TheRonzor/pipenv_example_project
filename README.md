@@ -33,7 +33,7 @@ Once you have launched the shell, all Python code you run from this session will
 
 If you are starting a new project:
 
-1) Start coding. When you run your code, you will likely receive errors that most of the libaries you are trying to use are not installed. **DO NOT** install them using `pip install`, instead, install them using `pipenv install`. This will install them inside the virtual environment only. As you start to install libraries you will notice some new files created in your project directory, `Pipfile` and `Pipfile.lock`, which are used by Pipenv to track the dependencies.
+1) Start coding. When you run your code, you will likely receive errors that most of the libraries you are trying to use are not installed. **DO NOT** install them using `pip install`, instead, install them using `pipenv install`. This will install them inside the virtual environment only. As you start to install libraries you will notice some new files created in your project directory, `Pipfile` and `Pipfile.lock`, which are used by Pipenv to track the dependencies.
 
 2) Once you have installed all of the required libraries within the virtual environemnt, run `pipenv lock` to be sure the dependency information is up-to-date.
 
